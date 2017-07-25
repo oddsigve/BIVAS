@@ -1,0 +1,81 @@
+/* CSS for displaying 4 tools in a row*/
+.item-display-x4 {
+	width: 22.5%;
+	float: left;
+	display: inline-block;
+	margin: 1em 0 0 2%;
+	background-color: white;
+}
+.item-display-x4 figure {
+	width: 100%;
+	height: auto;
+	float:left;
+}
+.item-display-x4 figure img {
+	width: 80%;
+	background-color: white;
+	margin: 1em 10% 1em 10%;
+	height: 10vw;
+
+}
+.item-display-x4 figure figcaption {
+	width: 95%;
+	min-height: 5em;
+	margin: 0 0 1em 5%;
+
+}
+.item-display-x4 h4 {
+	width: 95%;
+	min-height: 4em;
+	margin: 1em 0 1em 5%;
+}
+.item-display-x4 p {
+	width: 94%;
+	float:left;
+	padding-left: 1%;
+	margin: 0 0 0.5em 5%;
+	background-color: hsla(0, 0%, 98%, 1);
+}
+.item-display-x4 i {
+	font-size: 1.2em;
+	color: hsla(116, 65%, 27%, 1);
+}
+.item-display-x4 span {
+	display: block;
+	padding: 0.5em 0 0.5em 0;
+}
+.inline {
+	display:inline-block;
+}
+.item-display:hover {
+	opacity: 0.8;
+}
+@media only screen and (max-width: 992px) {
+
+
+
+}
+@media only screen and (max-width: 768px) {
+	.item-display-x4 {
+		width:42%;
+		margin: 1em 4% 1em 4%;
+	}
+	.item-display-x4 figure img {
+		height: 20vw;
+	}
+}
+@media only screen and (max-width: 480px) {
+
+
+
+}
+@media only screen and (max-width: 320px) {
+
+
+
+}
+
+
+
+
+

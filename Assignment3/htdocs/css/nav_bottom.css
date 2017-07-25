@@ -1,0 +1,18 @@
+/* CSS for the logo navigation on index*/
+#nav_bottom {
+	width: 100%;
+	margin-top: 1em;
+
+	display:inline-block;
+	border-top: 1px solid hsla(0, 0%, 82%, 1);
+	background-color: hsla(360, 100%, 100%, 0.8);
+	transition: all .2s ease-in-out;
+}
+#nav_bottom img {
+	width: 20%;
+	max-height: 3em;
+	margin: 2em 2% 2em 2%;
+}
+#nav_bottom img:hover {
+	transform: scale(1.1);
+}

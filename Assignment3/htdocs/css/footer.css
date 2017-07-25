@@ -1,0 +1,100 @@
+/* Footer CSS*/
+footer {
+	font-family: sans-serif;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	color: white;
+}
+footer div {
+	width:40%;
+	float:left;
+	padding: 2em 5% 2em 15%;
+	
+}
+footer address {
+	width: 30%;
+	float: left;
+	padding: 2.5em 5% 0 5%;
+}
+footer address a {
+	color: white;
+	text-decoration: none;
+}
+footer address i {
+	width: 30px;
+	height: 30px;
+}
+footer p {
+	width: 30%;
+	padding: 0 5% 0 5%;
+	float:left;
+	display:inline-block;
+}
+footer p a i {
+	width: 35px;
+	height: 30px;
+	padding-right: 5%;
+	float:left;
+	color: white;
+}
+footer p a i:hover {
+	color: #ccc;
+}
+footer ul {
+	list-style-type: none;
+}
+footer ul li{
+	font-size: 1em;
+	float: left;
+}
+footer ul li a {
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+footer img {
+	width: 25%;
+	left: 2%;
+}
+/* Media queries for footer */
+@media only screen and (max-width: 992px) {
+		footer img {
+	width: 40%;
+	}
+
+
+}
+@media only screen and (max-width: 768px) {
+	footer div {
+		padding: 1em 0 1em 5%;
+	}
+	footer address {
+		width: 50%;
+		padding-left: 0%;
+	}
+	footer img {
+	width: 55%;
+	}
+}
+@media only screen and (max-width: 480px) {
+
+	footer div {
+		padding: 2em 0 2em 5%;
+	}
+	footer img {
+	width: 70%;
+	}
+}
+@media only screen and (max-width: 320px) {
+
+	footer img {
+	width: 80%;
+	}
+
+}

@@ -1,0 +1,22 @@
+/*CSS for the default page on admin.php*/
+#content {
+	width:100%;
+	display:inline-block;
+}
+#content img {
+	width: 40%;
+	margin: 2em 5% 2em 5%;
+	float: left;
+}
+#content h3 {
+	width: 95%;
+	font-size: 2.4em;
+	float: right;
+	margin: 2em 0 1em 5%;
+}
+#content p {
+	width: 50%;
+	float: right;
+	margin: 2em 0 1em  0;
+
+}

@@ -1,0 +1,13 @@
+/* Header CSS*/
+header {
+	width: 100%;
+	text-align: left;
+	background-color: hsla(360, 100%, 100%, 0.9);
+}
+header img {
+	width:30%;
+	left: 0;
+	top: 0;
+	margin: 1em 0 1em 1em;
+	position:relative;
+}

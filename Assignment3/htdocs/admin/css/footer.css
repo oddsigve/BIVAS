@@ -1,0 +1,43 @@
+/* CSS for the admin.php footer*/
+footer {
+	margin-top: 2em;
+	font-family: sans-serif;
+	display: inline-block;
+	width: 100%;
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	color: white;
+}
+footer div {
+	width:40%;
+	float:left;
+	margin: 2em 5% 2em 5%;
+	
+}
+footer address {
+	width: 40%;
+	float: left;
+	margin: 5em 5% 0 5%;
+}
+footer address i {
+	width: 30px;
+	height: 30px;
+	margin-bottom: 0.3em;
+	position: relative;
+}
+footer ul {
+	list-style-type: none;
+}
+footer ul li{
+	font-size: 1em;
+	float: left;
+}
+footer ul li a {
+    padding: 0.5em 0.5em;
+}
+footer img {
+	width: 25%;
+	left: 2%;
+	position:relative;
+}

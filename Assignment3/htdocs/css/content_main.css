@@ -1,0 +1,95 @@
+/*Css for the index landing page */
+#c1, #c2 {
+	margin-top: 2em;
+}
+#c1  {
+	width: 40%;
+	float:left;
+}
+#c2 h3 {
+	font-size: 2em;
+	margin: 0 0 1em 0;
+}
+#c2  {
+	width: 60%;
+	float:left;
+}
+#c2 img {
+	width: 98%;
+	margin: 1em 2% 0 0;
+}
+#introP {
+	width: 90%;
+	margin: 0 0 1em 0;
+}
+/*Css for the tool news*/
+#news {
+	width:100%;
+	height: auto;
+}
+#news img {
+	width: 90%;
+	margin: 1em 4% 1em 4%;
+	padding: 2%;
+	min-height: 10vw;
+	max-height: 10vw;
+	background-color: white;
+}
+#news1, #news2, #news3, #news4 {
+	width: 40%;
+	min-height: 16vw;
+	display:inline-block;
+	float:left;
+	margin-bottom: 1em;
+	padding: 2%;
+	background-color: hsla(0, 0%, 100%, 1);
+}
+#news1, #news3 {
+	margin-left: 5%;
+}
+#news2, #news4 {
+ 	margin-left:2.5%;
+}
+#news1 p, #news2 p, #news3 p, #news4 p{
+	width: 90%;
+	height: 2em;
+	margin: 1em 3% 0.5em 3%;
+	padding: 0.2em 2% 0.2em 2%;
+	background-color: hsla(0, 0%, 98%, 1);
+}
+/*Media query*/
+@media only screen and (max-width: 768px) {
+	#flex {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: column-reverse;
+		flex-flow: column-reverse;
+	}
+	#flex > section {
+
+	}
+
+	#flex > section:last-of-type {
+
+	}
+	#c1, #c2  {
+		width: 90%;
+		margin: 1em 5% 0 5%;
+	}
+	#c1  {
+		width: 90%;
+		order: 1;
+	}
+	#c2  {
+		width: 90%;
+		order: 2;
+	}
+	#c2 img {
+		width: 100%;
+		margin: 0;
+	}
+
+}

@@ -1,0 +1,116 @@
+/* CSS for the main navigation below header*/
+#top-nav {
+	font-family: sans-serif;
+    display: inline-block;
+    width: 100%;
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    color: white;
+}
+.padding05 {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+#top-nav form {
+    margin: 1.2em 2em 1em 0.5em;
+}
+#top-nav form i {
+    float:right;
+    margin-right: 0.2em;
+}
+#top-nav-input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    float:right;
+    background-color: white;
+    padding: 0.2em;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#top-nav-input[type=text]:focus {
+    width: 25%;
+}
+/* CSS for the dropp down menu */
+#menu-ul {
+    width: 60%;
+    color: white;
+    margin-left: 1em;
+}  
+
+#menu-ul li {
+    list-style: none;
+    display: block;
+    float: left;
+    height: 40px;
+    position: relative;
+    background-color: #292c2f;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    z-index:100;
+}
+
+#menu-ul li a {
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0;
+    line-height: 40px;
+    height: 40px;
+    color: white;
+}
+#menu-ul li a:hover {
+    color: #ccc;
+}
+#menu-ul ul {
+    background-color: #292c2f;
+    padding: 0px;
+    width:170px;
+}
+#menu-ul .site-name,#menu-ul .site-name:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 160px;
+}
+#menu-ul .site-name a {
+    width: 129px;
+    overflow:hidden;
+}
+#menu-ul li a {
+    display: block;
+    text-decoration: none;
+}
+#menu-ul ul li {
+    border-right:none;
+    width:170px;
+    height:39px;
+}
+#menu-ul ul li a {
+    border-right: none;
+}
+
+/* Sub menus */
+#menu-ul ul {
+    display: none;
+    visibility:hidden;
+    position: absolute;
+    top: 40px;
+}
+/* Third-level menus */
+#menu-ul ul ul {
+    top: 0px;
+    left:170px;
+    display: none;
+    visibility:hidden;
+}
+#menu-ul ul li {
+    display: block;
+    visibility:visible;
+}
+#menu-ul li:hover > ul {
+    display: block;
+    visibility:visible;
+}
+#play1, #play2 {
+    font-size: 10px;
+    margin-left: 2em;
+}

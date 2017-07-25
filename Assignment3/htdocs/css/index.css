@@ -1,0 +1,65 @@
+/* Index CSS*/
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+.item-display {
+  color: black;
+}
+footer a, #top_nav a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover, #top_nav a:hover  {
+   color: #ccc;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+/* CSS for the content container */
+#container {
+	width:80%;
+	margin: 0 10% 0 10%;
+   background-color: hsla(0, 0%, 94%, 1);
+   -webkit-box-shadow: 0px 0px 4px 0px hsla(0, 0%, 80%, 1);
+   -moz-box-shadow: 0px 0px 4px 0px hsla(0, 0%, 80%, 1);
+   box-shadow: 0px 0px 4px 0px hsla(0, 0%, 80%, 1);
+}
+
+
+@media only screen and (max-width: 1224px) {
+
+  * { 
+    font-size: 14px;
+  }
+  #container {
+    width:100%;
+    margin: 0;
+    background-color: hsla(0, 0%, 94%, 1);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+
+    * { 
+      font-size: 12px;
+  }
+
+}
+@media only screen and (max-width: 480px) {
+
+   * { 
+    font-size: 10px; 
+  }
+
+}
+@media only screen and (max-width: 320px) {
+
+   * { 
+    font-size: 8px; 
+   }
+
+}

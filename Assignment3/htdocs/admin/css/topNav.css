@@ -1,0 +1,28 @@
+/*CSS for the main navigation*/
+#topNav {
+	width:100%;
+    overflow: hidden;
+    background-color: #292c2f;
+}
+#topNav ul {
+	padding: 0.3em 0 0.3em 0;
+	display:inline-block;
+	list-style-type: none;
+	float:left;
+}
+#topNav li {
+	float: left;
+    margin-left: 1em;
+}
+#topNav  a i {
+	width: 40px;
+	float:left;
+}
+
+@media only screen and (max-width: 480px) {
+	#topNav a {
+		padding: 0 0 0 0.2em;
+	}
+   
+
+}
